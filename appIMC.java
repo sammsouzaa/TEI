@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     imc = 1.3 * pesoDouble / (alturaDouble * alturaDouble);
                 }
-                resultado.setText(String.format("Seu IMC é %.2f", imc));
+                resultadoid.setText(String.format("Seu IMC é %.2f", imc));
                 if (imc < 18.5) {
                     status.setText("Abaixo do peso");
                 } else if (imc < 25) {
